@@ -1,0 +1,47 @@
+.navigation {
+    padding: 25px 10px;
+}
+
+.navigation ul {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.navigation ul a {
+    color: blueviolet;
+}
+
+.navigation ul li {
+    padding: 10px;
+    transition: .3s;
+}
+
+.navigation ul li:hover {
+    color: red;
+}
+
+
+.nav_active {
+    position: relative;
+}
+
+.nav_active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background-color: #f50;
+    animation: underline .3s forwards;
+}
+
+@keyframes underline {
+    to {
+        width: 100%;
+    }
+}
+
+
+

@@ -1,0 +1,53 @@
+.countries {
+    background-color: #ddd;
+    padding: 15px 0;
+}
+
+.countries .countinents {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.countries .countinents .countinent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.countries .countinents .countinent label,
+.countries .countinents .countinent input[type='radio'] {
+    cursor: inherit;
+}
+
+.countries .btn {
+    padding: 10px;
+    display: block;
+    margin: 15px auto;
+    border: 1px solid blueviolet;
+    border-radius: 12px;
+    color: blueviolet;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.countries .btn:hover {
+    background-color: rgb(182, 128, 233);
+    color: #fff;
+}
+
+.countries .pays {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 25px auto;
+}
+
+

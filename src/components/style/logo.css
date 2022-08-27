@@ -1,0 +1,34 @@
+.logo {
+    max-width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    color: blueviolet;
+    background-image: url('../../../public/imgs/world.jpg');
+    background-size: cover;
+    filter: brightness(30%);
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: -1;
+}
+
+.logo:hover {
+    filter: brightness(100%);
+}
+
+.logo img {
+    width: 25px;
+    object-fit: cover;
+    background-color: transparent;
+    border-radius: 50%;
+    font-weight: 900;
+    z-index: 1;
+}
+
+.logo h3 {
+    z-index: 1;
+    font-weight: 900;
+}

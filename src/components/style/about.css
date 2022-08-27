@@ -1,0 +1,14 @@
+.about {
+    padding: 15px;
+    line-height: 1.5em;
+}
+
+.about h3 {
+    font-size: 26px;
+    padding: 0 0 15px;
+}
+
+.about p {
+    font-weight: normal;
+    color: #777;
+}
